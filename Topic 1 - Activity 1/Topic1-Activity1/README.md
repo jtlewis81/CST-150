@@ -11,5 +11,6 @@ Per the additional instructions in the announcements, the following has been app
 
 - Upload all files to github unzipped (do not zip. Githun is powerful and can handle the load)
 - Have several screen shots of the application running
+  (I will include these in the document uploaded for assignment submission.)
 - Make a shot video, loom, screen - o -cast and upload to a video sharing site such as youtube
 - Video should have a voice navigation (you talking) not text over lay
