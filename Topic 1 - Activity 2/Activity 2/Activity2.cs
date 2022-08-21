@@ -31,6 +31,7 @@ namespace Activity_2
 
 		}
 
+		// Converts Lbs to Kgs when user clicks the "Convert to Kgs" button
 		private void ConvertToKgs(object sender, EventArgs e)
 		{
 			// Automatically correct empty data submission by making it a 0
@@ -55,11 +56,9 @@ namespace Activity_2
 			{
 				MessageBox.Show("Please enter only numbers!");
 			}
-			
-
-			
 		}
 
+		// Converts Kgs to Lbs when user clicks the "Convert to Lbs" button
 		private void ConvertToLbs(object sender, EventArgs e)
 		{
 			// Automatically correct empty data submission by making it a 0
@@ -84,7 +83,6 @@ namespace Activity_2
 			{
 				MessageBox.Show("Please enter only numbers!");
 			}
-			
 		}
 	}
 }
