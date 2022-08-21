@@ -33,44 +33,58 @@ namespace Activity_2
 
 		private void ConvertToKgs(object sender, EventArgs e)
 		{
-			// Catch an error that occurs when empty data is submitted
+			// Automatically correct empty data submission by making it a 0
 			if (textbox_lbs.Text == "")
 			{
 				textbox_lbs.Text = "0";
 			}
 
-			// Capture user data
-			float lbs = float.Parse(textbox_lbs.Text);
-			//float kgs = float.Parse(textbox_kgs.Text);
+			// Attempt to process data, and give user feedback if it fails
+			try
+			{
+				// Capture user data - check for invalid input
+				float lbs = float.Parse(textbox_lbs.Text);
 
-			// Convert to new variables
-			//float lbsFromKgs = kgs * 2.2046f;
-			float kgsFromLbs = lbs / 2.2046f;
+				// Convert to new variables
+				float kgsFromLbs = lbs / 2.2046f;
 
-			// Pass new data back to TextBoxes
-			//textbox_lbs.Text = lbsFromKgs.ToString();
-			textbox_kgs.Text = kgsFromLbs.ToString();
+				// Pass new data back to TextBoxes
+				textbox_kgs.Text = kgsFromLbs.ToString();
+			}
+			catch
+			{
+				MessageBox.Show("Please enter only numbers!");
+			}
+			
+
+			
 		}
 
 		private void ConvertToLbs(object sender, EventArgs e)
 		{
-			// Catch an error that occurs when empty data is submitted
+			// Automatically correct empty data submission by making it a 0
 			if (textbox_kgs.Text == "")
 			{
 				textbox_kgs.Text = "0";
 			}
 
-			// Capture user data
-			//float lbs = float.Parse(textbox_lbs.Text);
-			float kgs = float.Parse(textbox_kgs.Text);
+			// Attempt to process data, and give user feedback if it fails
+			try
+			{
+				// Capture user data - check for invalid input
+				float kgs = float.Parse(textbox_kgs.Text);
 
-			// Convert to new variables
-			float lbsFromKgs = kgs * 2.2046f;
-			//float kgsFromLbs = lbs / 2.2046f;
+				// Convert to new variables
+				float lbsFromKgs = kgs * 2.2046f;
 
-			// Pass new data back to TextBoxes
-			textbox_lbs.Text = lbsFromKgs.ToString();
-			//textbox_kgs.Text = kgsFromLbs.ToString();
+				// Pass new data back to TextBoxes
+				textbox_lbs.Text = lbsFromKgs.ToString();
+			}
+			catch
+			{
+				MessageBox.Show("Please enter only numbers!");
+			}
+			
 		}
 	}
 }
