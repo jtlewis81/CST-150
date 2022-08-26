@@ -1,4 +1,4 @@
-# ITT-150
+# CST-150
 Repo for C# Programming 1 [GCU]
 
 Each week's assignment will have its own folder, which will include its own README.md file containing a copy of the assignments instructions.
