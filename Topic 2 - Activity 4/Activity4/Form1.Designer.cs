@@ -39,7 +39,7 @@ namespace Activity4
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(58, 106);
+			this.label1.Location = new System.Drawing.Point(37, 106);
 			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(284, 22);
@@ -48,10 +48,10 @@ namespace Activity4
 			// 
 			// textBox_seconds
 			// 
-			this.textBox_seconds.Location = new System.Drawing.Point(364, 103);
-			this.textBox_seconds.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.textBox_seconds.Location = new System.Drawing.Point(322, 103);
+			this.textBox_seconds.Margin = new System.Windows.Forms.Padding(4);
 			this.textBox_seconds.Name = "textBox_seconds";
-			this.textBox_seconds.Size = new System.Drawing.Size(179, 26);
+			this.textBox_seconds.Size = new System.Drawing.Size(232, 26);
 			this.textBox_seconds.TabIndex = 1;
 			this.textBox_seconds.TextChanged += new System.EventHandler(this.UpdateTime);
 			// 
@@ -61,9 +61,8 @@ namespace Activity4
 			this.label_output.Location = new System.Drawing.Point(157, 181);
 			this.label_output.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label_output.Name = "label_output";
-			this.label_output.Size = new System.Drawing.Size(291, 22);
+			this.label_output.Size = new System.Drawing.Size(0, 22);
 			this.label_output.TabIndex = 2;
-			this.label_output.Text = "0 Days : 0 Hours : 0 Minutes : 0 Seconds";
 			this.label_output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label2
