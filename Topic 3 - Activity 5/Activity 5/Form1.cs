@@ -104,8 +104,8 @@ namespace Activity_5
 				
 				while (!fileInput.EndOfStream)
 				{
-					// convert word to lowercase
-					string lowercaseWord = fileInput.ReadLine();
+					// convert word to lowercase as it gets pulled from the file
+					string lowercaseWord = fileInput.ReadLine().ToLower();
 					// add item in the listBox
 					wordList_ListBox.Items.Add(lowercaseWord);
 					// add words to List of type string
