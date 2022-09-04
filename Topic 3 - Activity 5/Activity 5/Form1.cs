@@ -120,6 +120,8 @@ namespace Activity_5
 			}
 		}
 
+		// Create a file to save, write data to it, and close it.
+
 		private void SaveStatisticsToFile(object sender, EventArgs e)
 		{
 			
@@ -140,6 +142,8 @@ namespace Activity_5
 				MessageBox.Show("File NOT Saved. User cancelled.");
 			}
 		}
+
+		// Count the number of vowels in the passed string
 
 		private int GetVowelCount(string word)
 		{
