@@ -1,4 +1,11 @@
-﻿using System;
+﻿// Jamie Lewis
+// CST-150
+// 9/4/22
+// The modifications on this auto-generated file are my own work.
+
+// The helper method for counting vowels uses a switch statement derived from this video: https://www.youtube.com/watch?v=fapzDz_S-pQ&ab_channel=MicroNG
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
