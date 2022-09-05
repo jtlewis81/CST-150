@@ -36,8 +36,8 @@ namespace Activity_7
 		{
 			// variables for output and calculations
 			string ioLabel = "The approximate value of PI for " + input_textbox.Text + " terms =";
-			float output =  0f;
-			int denominator = 1;
+			decimal output =  0;
+			decimal denominator = 1;
 
 
 			// use try-catch for input validation
@@ -51,11 +51,11 @@ namespace Activity_7
 				{
 					if (i % 2 == 0) // even input < add 4/divisor to previous iteration result >
 					{
-						output += (4f / denominator);
+						output += (4 / denominator);
 					}
 					else if (i % 2 == 1) // odd input < subtract 4/divisor from previous iteration result >
 					{
-						output -= (4f / denominator);
+						output -= (4 / denominator);
 					}
 
 					// increment the divisor by 2 each iteration
