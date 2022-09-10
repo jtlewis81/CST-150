@@ -1,4 +1,4 @@
-The important files for this assignment are ItemInventory.cs and Program.cs.
+The important files for this assignment are InventoryItem.cs and Program.cs.
 
 Milestone 2 instructions:
 
