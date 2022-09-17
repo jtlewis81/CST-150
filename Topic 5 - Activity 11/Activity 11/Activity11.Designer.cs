@@ -72,7 +72,7 @@ namespace Activity_11
 			this.die1_label.Name = "die1_label";
 			this.die1_label.Size = new System.Drawing.Size(94, 55);
 			this.die1_label.TabIndex = 0;
-			this.die1_label.Text = "2";
+			this.die1_label.Text = "1";
 			this.die1_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// die2_groupBox
@@ -95,7 +95,7 @@ namespace Activity_11
 			this.die2_label.Name = "die2_label";
 			this.die2_label.Size = new System.Drawing.Size(94, 55);
 			this.die2_label.TabIndex = 0;
-			this.die2_label.Text = "3";
+			this.die2_label.Text = "20";
 			this.die2_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// Activity11

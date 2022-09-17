@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Jamie Lewis
+// CST-150
+// ### DATE ###
+// The modifications to this auto-generated file are my own work.
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +26,7 @@ namespace Activity_11
 		{
 			InitializeComponent();
 
+			// this reset method works for initializing the variables
 			GetNewDice();
 		}
 

@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Jamie Lewis
+// CST-150
+// ### DATE ###
+// This is my own work.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +34,7 @@ namespace Activity_11
 			}
 		}
 
+		// Returns a random number between 1 and the size of the die, inclusive
 		public int RollDie()
 		{
 			return new Random().Next(1, this.sides + 1);
