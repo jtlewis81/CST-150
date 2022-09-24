@@ -91,7 +91,7 @@ namespace Activity13
 				gridSpaces[0, 0].Text.Equals(gridSpaces[1, 1].Text) && gridSpaces[1, 1].Text.Equals(gridSpaces[2, 2].Text) && !gridSpaces[0, 0].Text.Equals("") ||
 				gridSpaces[0, 2].Text.Equals(gridSpaces[1, 1].Text) && gridSpaces[1, 1].Text.Equals(gridSpaces[2, 0].Text) && !gridSpaces[0, 2].Text.Equals(""))
 			{
-				// update gaem status if game over
+				// update game status if game over
 				if (isPlayer1Turn)
 				{
 					status_label.Text = "Player 1 Wins!";
