@@ -20,7 +20,9 @@ namespace Activity13
 			InitializeComponent();
 
 			// initialize permanent game variables
-			gridSpaces = new Label[,] { { space_label_0, space_label_1, space_label_2 }, { space_label_3, space_label_4, space_label_5 }, { space_label_6, space_label_7, space_label_8 } };
+			gridSpaces = new Label[,] { { space_label_0, space_label_1, space_label_2 },
+								   { space_label_3, space_label_4, space_label_5 },
+								   { space_label_6, space_label_7, space_label_8 } };
 		}
 
 		private void StartNewGame(object sender, EventArgs e)
