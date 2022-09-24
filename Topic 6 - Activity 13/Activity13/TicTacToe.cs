@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace Activity13
 {
-	public partial class Form1 : Form
+	public partial class TicTacToe : Form
 	{
 		// declare "permanent" game variables (they are the same for every game and never change)
 		Label[,] gridSpaces;
 
-		public Form1()
+		public TicTacToe()
 		{
 			InitializeComponent();
 
