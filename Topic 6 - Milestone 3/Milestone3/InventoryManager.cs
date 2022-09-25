@@ -1,4 +1,9 @@
-﻿using System;
+﻿// Jamie Lewis
+// CST-150
+// 9/25/22
+// This is my own work.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
