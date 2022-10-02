@@ -247,8 +247,6 @@ namespace Milestone_3
 				// create a file to write to
 				StreamWriter output;
 				output = File.CreateText(NewSavedInventory.FileName);
-
-				output.Write(Inventory.ToString());
 				
 				// write the data to the file
 				for (int i = 0; i < Inventory.GetAllItems().Count; i++)
