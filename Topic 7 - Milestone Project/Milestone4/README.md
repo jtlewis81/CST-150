@@ -1,4 +1,4 @@
-Milestone 3 instructions:
+Milestone 4 instructions:
 
 Refine your project. Your application should allow you to manipulate the inventory in your inventory manager through the user interface. You should be able to do the following:
 
