@@ -1,27 +1,22 @@
-The important files for this assignment are InventoryManager.cs and Program.cs.
+Milestone 5 instructions:
 
-Milestone 3 instructions:
+This milestone has two parts:
 
-This milestone has three parts:
+Part 1: Refine your project
 
-Part 1: Use UML class diagrams to model your inventory manager class. This class must use an array to manage a collection of inventory items.
+Make any updates to the style of your application. Make sure the application has an attractive and easy to use interface.
+Resolve any issues with functionality.
+Incorporate any feedback as you see fit.
+Define an additional event of your choosing—this is your opportunity to make your application stand apart!
+Part 2: Video Demonstration
 
-Part 2: Implement the inventory manager class. This class must have methods that do the following:
+Demonstrate your project in class and be prepared to answer questions about your code. Refer to “Presenting Online Guide,” for presentation options. Though this resource is intended for online courses, your instructor may support these options.
 
-	1. Add a new item to the inventory manager.
-	2. Remove an item from the inventory manager.
-	3. Re-stock an item in the inventory manager.
-	4. Display the items in the inventory manager.
-	5. Search for an item in the inventory manager by at least two criteria (name, price, quantity, etc.).
-
-Part 3: Test the inventory manager class with a driver program or unit tests. This may be a console application.
-
-Part 4: Demonstrate your project in class and be prepared to answer questions about your code. Refer to “Presenting Online Guide,” for presentation options. Though this resource is intended for online courses, your instructor may support these options.
+Prepare a video demonstration of your application.
 
 Deliverables:
 
-	1. A cover sheet with name, date, and assignment title.
-	2. A UML class diagram of the inventory manager class.
-	3. Code that implements the inventory manager class.
-	4. A driver method or unit tests for the inventory manager class.
-	5. The link to the screencast URL.
+A cover sheet with name, date, and assignment title.
+All code for your application.
+A video of your application demonstration.
+The link to the screencast URL.
